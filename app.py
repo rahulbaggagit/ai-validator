@@ -500,13 +500,33 @@ if st.session_state.get('show_results') and st.session_state.get('selected_scena
 # =============================================================================
 
 st.markdown("---")
+
+# Contact CTA
 st.markdown("""
-<div style="text-align: center; color: #666; padding: 1.5rem 0;">
-    <p style="font-size: 1rem; margin-bottom: 0.5rem;">
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 2rem; border-radius: 12px; text-align: center; margin: 1rem 0;">
+    <p style="font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem;">
+        Need Custom AI Agents for Your Business?
+    </p>
+    <p style="font-size: 1rem; color: #ccc; margin-bottom: 1.5rem;">
+        Production-ready agentic AI solutions — validated, tested, and curated for your use case.
+    </p>
+    <p style="font-size: 1.1rem; font-weight: 600; color: #fff; margin-bottom: 0.5rem;">Contact Rahul Bagga</p>
+    <p style="font-size: 0.95rem; color: #ccc; margin-bottom: 0.2rem;">
+        <a href="mailto:rbagga@method360.com" style="color: #667eea; text-decoration: none;">rbagga@method360.com</a>
+    </p>
+    <p style="font-size: 0.95rem; color: #ccc;">
+        <a href="tel:+12026044926" style="color: #667eea; text-decoration: none;">+1 (202) 604-4926</a>
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div style="text-align: center; color: #666; padding: 1rem 0;">
+    <p style="font-size: 0.9rem; margin-bottom: 0.3rem;">
         <strong>AI outputs need validation before they reach your clients.</strong>
     </p>
     <p style="font-size: 0.85rem; color: #888;">
-        Built by Rahul Bagga | Powered by Claude & Streamlit
+        Developed by Rahul Bagga
     </p>
 </div>
 """, unsafe_allow_html=True)
